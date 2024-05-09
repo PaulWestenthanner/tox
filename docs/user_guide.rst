@@ -108,7 +108,7 @@ Settings defined in the top-level ``testenv`` section are automatically inherite
 overridden. Test environment names can consist of alphanumeric characters and dashes; for example: ``py311-django42``.
 The name will be split on dashes into multiple factors, meaning ``py311-django42`` will be split into two factors:
 ``py311`` and ``django42``. *tox* defines a number of default factors, which correspond to various versions and
-implementations of Python and provide default values for ``base_python``:
+implementations of Python and provide default values for ``basepython``:
 
 - ``pyNM``: configures ``basepython = pythonN.M``
 - ``pypyNM``: configures ``basepython = pypyN.M``
